@@ -1,0 +1,114 @@
+.header {
+    background-color: rgb(50, 139, 255);
+    width: 100%;
+    font-size: 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.header img {
+    position: absolute;
+    top: 11px ;
+    left: 22px;
+    border-radius:50%;
+}
+.header a {
+    display: inline-block;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 20px 20px;
+    transition: .5s;
+}
+.header a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 38, 206);
+}
+.header .box1 {
+    order: 4;
+}
+.header .box2 {
+    order: 3;
+}
+.header .box3 {
+    order: 2;
+}
+.header .box4 {
+    order: 1;
+}
+
+h2 {
+    font-size: 36px;
+}
+.text {
+    font-size: 22px;
+}
+
+.banner {
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    width: 100%;
+    max-width: 1440px;
+}
+
+.about-title ,.service-title{
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.about {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.about .item {
+    box-sizing: border-box;
+    width: 50%;
+    max-width: 720px;
+    padding: 20px 20px;
+    
+}
+.about img {
+    width: 100%;
+    height: 100%;
+}
+.about .title {
+    padding: 0 0 20px;
+    text-align: center;
+}
+.about .text {
+    padding-bottom: 12%;
+}
+
+.service {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+.service img {
+    width: 100%;
+}
+.service .item {
+    padding: 0 20px;
+    max-width: 320px;
+    
+}
+.service .title {
+    padding: 20px 0;
+}
+.service .text {
+    padding: 10px 0 60px;
+}
+
+.footer {
+    width: 100%;
+    display: inline-block;
+    background-color: black;
+    color: #5c5c5c;
+    padding: 10px 0;
+    text-align: center;
+}
